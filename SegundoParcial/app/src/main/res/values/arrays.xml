@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="arrayRopaSuperior">
+        <item>Camisa Manga Larga</item>
+        <item>Remera de cuello redondo</item>
+        <item>Chomba entallada</item>
+    </array>
+
+    <integer-array name="arrayImagenRopaSuperior">
+        <item>@drawable/sup1</item>
+        <item>@drawable/sup2</item>
+        <item>@drawable/sup3</item>
+    </integer-array>
+
+
+    <array name="arrayRopaInferior">
+        <item>Pantalon de Gabardina</item>
+        <item>Bermuda de Jean</item>
+        <item>Malla de playa</item>
+    </array>
+
+    <integer-array name="arrayImagenRopaInferior">
+        <item>@drawable/inf1</item>
+        <item>@drawable/inf2</item>
+        <item>@drawable/inf3</item>
+    </integer-array>
+
+</resources>

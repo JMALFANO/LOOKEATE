@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SegundoParcial</string>
+    <string name="prendas">PRENDAS: </string>
+    <string name="parteinferior">PARTE INFERIOR:</string>
+    <string name="partesuperior">PARTE SUPERIOR:</string>
+    <string name="toolbar">¡LOOKEAME!</string>
+    <string name="creador">ALFANO, Juan Martin</string>
+    <string name="marca">LOOKEATE</string>
+    <string name="para">Istea - Programacion IV</string>
+    <string name="nombre">Ingrese su nombre</string>
+    <string name="contraseña">Ingrese una contraseña</string>
+    <string name="hombre">Hombre</string>
+    <string name="mujer">Mujer</string>
+    <string name="txNombre">NOMBRE</string>
+    <string name="txContraseña">CONTRASEÑA</string>
+    <string name="txlogin">¡BIENVENIDO!</string>
+    <string name="txGenero">GENERO</string>
+    <string name="crearusuario">CREAR NUEVO USUARIO</string>
+    <string name="mislooks">MIS LOOKS</string>
+    <string name="nombrelook">NOMBRE LOOK:</string>
+    <string name="modificar">MODIFICAR</string>
+    <string name="eliminar">ELIMINAR</string>
+    <string name="confirmar">CONFIRMAR</string>
+    <string name="txrealizar">QUE DESEA REALIZAR</string>
+    <string name="modificarlook">GUARDAR</string>
+    <string name="eliminarlook">ELIMINAR</string>
+    <string name="looks">MIS LOOKS</string>
+    <string name="modificacion">MODIFICACIONES</string>
+    <string name="aboutme">ABOUT ME</string>
+    <string name="loggin">INICIAR SESION</string>
+    <string name="register">REGISTRARSE</string>
+</resources>

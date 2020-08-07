@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.sapia.segundoparcial.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"></android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/txtPrendas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="@string/prendas" />
+
+    <TextView
+        android:id="@+id/txtParteSuperior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/partesuperior" />
+    <Spinner
+        android:id="@+id/spinnerRopaSuperior"
+        android:entries="@array/arrayRopaSuperior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp" />
+
+    <ImageView
+        android:id="@+id/imgParteSuperior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtParteInferior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/parteinferior" />
+
+       <Spinner
+        android:id="@+id/spinnerRopaInferior"
+        android:entries="@array/arrayRopaInferior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp" />
+
+    <ImageView
+        android:id="@+id/imgParteInferior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtNombreLook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombrelook" />
+
+    <EditText
+        android:id="@+id/etNombreLook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/btnCrearLook"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="Crear Look"/>
+
+        <Button
+            android:id="@+id/btnMisLooks"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="@string/mislooks" />
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

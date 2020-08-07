@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="chkSplashScreen"
+        android:summary="SplashScreen de Inicio"
+        android:title="Estado" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="switchNotifications"
+        android:title="Mostrar notificaciones" />
+
+</PreferenceScreen>
